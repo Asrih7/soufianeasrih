@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Soufiane Asrih — Expert Frontend Architect & Scrum Master Portfolio",
   "private": true,
-  "scripts": {
-    "start": "ng serve --open",
-    "build": "ng build",
-    "build:prod": "ng build --configuration production"
-  },
+"scripts": {
+  "start": "ng serve --open",
+  "build": "ng build",
+  "build:prod": "node ./node_modules/@angular/cli/bin/ng build --configuration production"
+},
   "dependencies": {
     "@angular/animations": "^20.0.0",
     "@angular/common": "^20.0.0",

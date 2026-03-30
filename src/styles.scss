@@ -183,3 +183,20 @@ section { padding: 9rem 5vw; }
 @media (max-width: 900px) {
   section { padding: 6rem 5vw; }
 }
+
+@media (max-width: 600px) {
+  html { font-size: 14px; }
+  section { padding: 4rem 4vw; }
+  .s-lbl { margin-bottom: 2rem; font-size: .55rem; }
+  .s-ttl { font-size: clamp(1.8rem, 4vw, 3.5rem); }
+  .btn-p, .btn-o { padding: .7rem 1.5rem; font-size: .6rem; }
+  .toast-wrap { bottom: 1rem; right: 1rem; max-width: 280px; }
+  .btt { bottom: 1rem; left: 1rem; width: 36px; height: 36px; font-size: .9rem; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 13px; }
+  section { padding: 3rem 3vw; }
+  .s-lbl { gap: 0.5rem; font-size: .5rem; }
+  .s-ttl { font-size: clamp(1.5rem, 3.5vw, 2.5rem); margin-bottom: 1.5rem; }
+}

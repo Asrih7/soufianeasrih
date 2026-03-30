@@ -74,6 +74,20 @@ import { SkillCategory } from '../../models/portfolio.models';
     }
     .sk-n { font-size: 1rem; font-weight: 600; position: relative; z-index: 1; transition: color .3s; color: var(--ink); }
     .sk-y { font-family: var(--f3); font-size: .65rem; color: var(--ink3); letter-spacing: .1em; text-transform: uppercase; position: relative; z-index: 1; transition: color .3s; }
+    @media (max-width: 900px) {
+      .sk-g { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8rem; }
+      .sk-p { min-height: 120px; padding: 1.2rem; }
+      .sk-n { font-size: 0.9rem; }
+      .sk-y { font-size: 0.55rem; }
+    }
+    @media (max-width: 600px) {
+      .sk-fs { gap: 0.3rem; margin-bottom: 1.5rem; }
+      .sf-b { padding: 0.3rem 0.65rem; font-size: 0.55rem; }
+      .sk-g { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.6rem; }
+      .sk-p { min-height: 110px; padding: 1rem; }
+      .sk-n { font-size: 0.8rem; }
+      .sk-y { font-size: 0.5rem; }
+    }
   `],
 })
 export class SkillsComponent {

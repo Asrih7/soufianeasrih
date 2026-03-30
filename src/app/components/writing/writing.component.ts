@@ -14,7 +14,7 @@ import { ARTICLES } from '../../data/portfolio.data';
 
       <div class="wr-g">
         @if (isLoading()) {
-          <!-- Loading skeleton with profile -->
+          <!-- Loading skeleton with prominent Soufiane Asrih profile -->
           <div class="wr-c loading-skeleton">
             <div class="wr-img-w skeleton-img"></div>
             <div class="wr-body">
@@ -22,7 +22,7 @@ import { ARTICLES } from '../../data/portfolio.data';
               <div class="wr-ttl skeleton-text" style="width: 80%; height: 60px;"></div>
               <div class="wr-desc skeleton-text" style="width: 100%; height: 80px;"></div>
             </div>
-            <div class="wr-auth">
+            <div class="wr-auth loading-profile">
               <img class="wr-av" src="assets/profile/soufiane.jpg" alt="Soufiane Asrih" width="26" height="26" loading="lazy"/>
               <span class="wr-an">Soufiane Asrih</span>
             </div>
@@ -32,6 +32,11 @@ import { ARTICLES } from '../../data/portfolio.data';
             <div class="wr-body">
               <div class="wr-tag skeleton-text" style="width: 40%;"></div>
               <div class="wr-ttl skeleton-text" style="width: 80%; height: 60px;"></div>
+              <div class="wr-desc skeleton-text" style="width: 100%; height: 40px;"></div>
+            </div>
+            <div class="wr-auth loading-profile">
+              <img class="wr-av" src="assets/profile/soufiane.jpg" alt="Soufiane Asrih" width="26" height="26" loading="lazy"/>
+              <span class="wr-an">Soufiane Asrih</span>
             </div>
           </div>
         } @else {
@@ -93,9 +98,11 @@ import { ARTICLES } from '../../data/portfolio.data';
     .wr-an { font-family: var(--f3); font-size: .58rem; color: var(--ink3); letter-spacing: .08em; }
     .more-link { text-align: center; margin-top: 3rem; }
     /* Loading skeleton */
-    .loading-skeleton { pointer-events: none; }
-    .skeleton-img { background: linear-gradient(90deg, var(--bg3) 25%, var(--bg2) 50%, var(--bg3) 75%); background-size: 200% 100%; animation: loading 1.5s infinite; }
-    .skeleton-text { background: linear-gradient(90deg, var(--bg3) 25%, var(--bg2) 50%, var(--bg3) 75%); background-size: 200% 100%; animation: loading 1.5s infinite; border-radius: 2px; }
+    .loading-skeleton { pointer-events: none; opacity: 0.7; }
+    .skeleton-img { background: linear-gradient(90deg, var(--bg3) 25%, var(--bg2) 50%, var(--bg3) 75%); background-size: 200% 100%; animation: loading 1.5s infinite; height: 220px; }
+    .skeleton-text { background: linear-gradient(90deg, var(--bg3) 25%, var(--bg2) 50%, var(--bg3) 75%); background-size: 200% 100%; animation: loading 1.5s infinite; border-radius: 2px; display: block; }
+    .loading-profile { opacity: 1 !important; }
+    .loading-profile .wr-an { font-weight: 500; color: var(--ink); font-size: .7rem; }
     @keyframes loading { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
     @media (max-width: 900px) { .wr-g { grid-template-columns: 1fr; } }
   `],
@@ -105,9 +112,9 @@ export class WritingComponent implements OnInit {
   readonly isLoading = signal(true);
 
   ngOnInit(): void {
-    // Simulate loading delay - show loading skeleton for 2.5 seconds
+    // Show loading skeleton for 5 seconds with Soufiane Asrih profile
     setTimeout(() => {
       this.isLoading.set(false);
-    }, 2500);
+    }, 5000);
   }
 }

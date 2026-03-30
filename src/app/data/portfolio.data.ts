@@ -37,7 +37,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 1,
     company: 'NTT DATA Morocco',
-    logo: 'assets/companies/nttdata.svg',
+    logo: 'assets/companies/nttdata.png',
     date: 'Aug 2024 – Present',
     badge: 'Current',
     role: 'Senior Frontend Angular Developer',
@@ -52,7 +52,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 2,
     company: 'SA7Tech',
-    logo: 'assets/companies/sa7tech.svg',
+    logo: 'assets/companies/sa7tec.jpg',
     date: 'Nov 2023 – Present',
     badge: 'Founder',
     role: 'Founder — Freelance Web & Mobile',
@@ -67,7 +67,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 3,
     company: 'Hiberus',
-    logo: 'assets/companies/hiberus.svg',
+    logo: 'assets/companies/hiberus.png',
     date: 'Apr – Oct 2023',
     badge: 'E-Commerce',
     role: 'Senior Frontend Angular Developer',
@@ -81,7 +81,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 4,
     company: 'noodra',
-    logo: 'assets/companies/noodra.svg',
+    logo: 'assets/companies/noodra.jpg',
     date: 'Jul 2022 – Mar 2023',
     badge: 'Mobile',
     role: 'Senior Web Developer',
@@ -94,7 +94,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 5,
     company: 'Babel',
-    logo: 'assets/companies/babel.svg',
+    logo: 'assets/companies/babel.jpg',
     date: 'Mar – Jun 2022',
     badge: 'Internal',
     role: 'Senior Frontend Angular Developer',
@@ -107,7 +107,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: 6,
     company: 'everis / NTT DATA',
-    logo: 'assets/companies/everis.svg',
+    logo: 'assets/companies/everis.jpg',
     date: 'Mar 2016 – Jan 2022',
     badge: '6 Years',
     role: 'Senior FullStack Developer',

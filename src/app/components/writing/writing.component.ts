@@ -64,6 +64,7 @@ import { ARTICLES } from '../../data/portfolio.data';
             </a>
           }
         }
+      </div>
 
       <div class="more-link" [appReveal]="300">
         <a class="btn-o hover-el" href="https://medium.com/@asrihsoufiane" target="_blank" rel="noopener">

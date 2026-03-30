@@ -1,6 +1,8 @@
 {
-  "buildCommand": "npm run build:vercel",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build:prod",
   "outputDirectory": "dist/soufiane-portfolio",
+  "framework": "angular",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html", "status": 200 }
   ]

@@ -21,8 +21,7 @@ import { ContactForm } from '../../models/portfolio.models';
             Let's build<br>something<br><em>great.</em>
           </div>
           <p class="ct-sub" [appReveal]="200">
-            Looking for a Senior Angular Architect to elevate your frontend or lead a Scrum team?
-            Open to senior roles worldwide and select freelance engagements.
+            Designing AI-enhanced frontend architectures that drive business impact. Senior Angular Architect ready to lead teams, architect platforms, or accelerate your product vision. Available for senior roles, technical leadership, and selective freelance projects worldwide.
           </p>
           <div class="ct-chs" [appReveal]="300">
             @for (ch of channels; track ch.label) {

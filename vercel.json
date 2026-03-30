@@ -1,4 +1,7 @@
 {
+  "buildCommand": "npm run build:prod",
+  "outputDirectory": "dist/soufiane-portfolio/browser",
+  "framework": "angular",
   "routes": [
     {
       "src": "/(.*)",

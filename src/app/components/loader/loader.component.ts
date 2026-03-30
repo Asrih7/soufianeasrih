@@ -44,7 +44,7 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class LoaderComponent implements AfterViewInit, OnDestroy {
   private platformId = inject(PLATFORM_ID);
-  readonly letters   = 'Soufiane'.split('');
+  readonly letters   = 'Soufiane Asrih'.split('');
   readonly pct       = signal(0);
   readonly visible   = signal(true);
   readonly hiding    = signal(false);
@@ -56,16 +56,23 @@ export class LoaderComponent implements AfterViewInit, OnDestroy {
       this.pct.update(v => { const n = Math.min(v + Math.random() * 18, 99); return Math.floor(n); });
       if (this.pct() >= 99) clearInterval(this.interval);
     }, 80);
-    if (document.readyState === 'complete') { setTimeout(() => this.done(), 300); }
+    if (document.readyState === 'complete') { setTimeout(() => this.done(), 3000); }
     else window.addEventListener('load', () => this.done(), { once: true });
   }
 
-  private done(): void {
-    this.pct.set(100);
-    clearInterval(this.interval);
-    setTimeout(() => this.hiding.set(true), 450);
-    setTimeout(() => this.visible.set(false), 1150);
-  }
+private done(): void {
+  this.pct.set(100);
+  clearInterval(this.interval);
+
+  // ⏳ keep visible for 5 seconds
+  setTimeout(() => {
+    this.hiding.set(true);
+
+    // wait for fade-out animation (~650ms)
+    setTimeout(() => this.visible.set(false), 500);
+
+  }, 2000);
+}
 
   ngOnDestroy(): void { clearInterval(this.interval); }
 }

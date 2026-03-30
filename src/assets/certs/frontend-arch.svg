@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="20" fill="#0B0B09"/>
+  <rect x="4" y="4" width="192" height="192" rx="17" fill="none" stroke="#C94B0C" stroke-width="2.5"/>
+  <text x="100" y="90" font-family="monospace" font-size="38" fill="#C94B0C" text-anchor="middle">&lt;/&gt;</text>
+  <text x="100" y="122" font-family="Georgia,serif" font-size="13" font-weight="600" fill="white" text-anchor="middle">Frontend</text>
+  <text x="100" y="140" font-family="Georgia,serif" font-size="13" font-weight="600" fill="#C94B0C" text-anchor="middle">Architect</text>
+  <text x="100" y="168" font-family="monospace" font-size="7" fill="#555" text-anchor="middle" letter-spacing="2">10+ YEARS EXPERTISE</text>
+  </svg>

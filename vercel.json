@@ -1,7 +1,7 @@
 {
   "installCommand": "npm install",
   "buildCommand": "npm run build:prod",
-  "outputDirectory": "dist/soufiane-portfolio/browser",
+  "outputDirectory": "dist/soufiane-portfolio",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]

@@ -51,26 +51,29 @@ import { SkillCategory } from '../../models/portfolio.models';
       &:hover { border-color: var(--ink); color: var(--ink); }
       &.act  { background: var(--ink); color: var(--bg); border-color: var(--ink); }
     }
-    .sk-g { display: flex; flex-wrap: wrap; gap: .7rem; min-height: 120px; }
+    .sk-g { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-top: 2rem; }
     .sk-p {
-      display: flex; align-items: baseline; gap: .6rem;
-      padding: .82rem 1.25rem; border: 1px solid var(--line);
-      position: relative; overflow: hidden; border-radius: 2px;
-      transition: border-color .3s;
+      display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;
+      padding: 1.5rem; border: 1px solid var(--line); background: var(--bg2);
+      position: relative; overflow: hidden; border-radius: 2px; min-height: 140px;
+      transition: all .3s var(--ease);
       &::before {
         content: ''; position: absolute; inset: 0;
-        background: var(--ink); transform: translateY(101%);
-        transition: transform .3s var(--ease);
+        background: linear-gradient(135deg, var(--acc), var(--acc-rgb));
+        opacity: 0; transition: opacity .3s var(--ease);
       }
-      &:hover::before { transform: none; }
-      &:hover .sk-n, &:hover .sk-y { color: var(--bg); }
-      &.hot { background: var(--acc); border-color: var(--acc);
+      &:hover {
+        border-color: var(--acc); transform: translateY(-4px); box-shadow: var(--sh2);
+        &::before { opacity: 0.1; }
+        .sk-n, .sk-y { color: var(--ink); }
+      }
+      &.hot {
+        background: var(--acc); border-color: var(--acc);
         .sk-n, .sk-y { color: #fff; }
-        &::before { background: var(--ink); }
       }
     }
-    .sk-n { font-size: .84rem; font-weight: 500; position: relative; z-index: 1; transition: color .3s; color: var(--ink); }
-    .sk-y { font-family: var(--f3); font-size: .54rem; color: var(--ink3); letter-spacing: .06em; position: relative; z-index: 1; transition: color .3s; }
+    .sk-n { font-size: 1rem; font-weight: 600; position: relative; z-index: 1; transition: color .3s; color: var(--ink); }
+    .sk-y { font-family: var(--f3); font-size: .65rem; color: var(--ink3); letter-spacing: .1em; text-transform: uppercase; position: relative; z-index: 1; transition: color .3s; }
   `],
 })
 export class SkillsComponent {

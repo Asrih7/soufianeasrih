@@ -1,6 +1,6 @@
 [build]
   command = "npm run build:prod"
-  publish = "dist/soufiane-portfolio"
+  publish = "dist/soufiane-portfolio/browser"
 
 [[redirects]]
   from = "/*"

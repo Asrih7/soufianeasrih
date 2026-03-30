@@ -3,6 +3,9 @@
   "buildCommand": "npm run build:prod",
   "outputDirectory": "dist/soufiane-portfolio/browser",
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/[^.]+",
+      "dest": "/index.html"
+    }
   ]
 }

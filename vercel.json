@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build:prod",
+  "installCommand": "npm install",
+  "buildCommand": "npx ng build --configuration production",
   "outputDirectory": "dist/soufiane-portfolio",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }

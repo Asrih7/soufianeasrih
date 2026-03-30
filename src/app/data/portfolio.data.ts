@@ -35,7 +35,7 @@ export const SKILLS: Skill[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: 1,
+    id: 6,
     company: 'NTT DATA Morocco',
     logo: 'assets/companies/nttdata.png',
     date: 'Aug 2024 – Present',
@@ -50,7 +50,7 @@ export const EXPERIENCES: Experience[] = [
     tags: ['Angular 18', 'TypeScript', 'Jenkins', 'Swagger', 'Allianz', 'REST API', 'Agile'],
   },
   {
-    id: 2,
+    id: 5,
     company: 'SA7Tech',
     logo: 'assets/companies/sa7tec.jpg',
     date: 'Nov 2023 – Present',
@@ -65,7 +65,7 @@ export const EXPERIENCES: Experience[] = [
     tags: ['Angular 17', 'Ionic 7', 'Capacitor', 'npm', 'Open Source', 'AdMob'],
   },
   {
-    id: 3,
+    id: 4,
     company: 'Hiberus',
     logo: 'assets/companies/hiberus.png',
     date: 'Apr – Oct 2023',
@@ -79,7 +79,7 @@ export const EXPERIENCES: Experience[] = [
     tags: ['Angular', 'SCSS', 'Bootstrap', 'Scrum', 'Cepsa', 'Iberdrola', 'Component Library'],
   },
   {
-    id: 4,
+    id: 3,
     company: 'noodra',
     logo: 'assets/companies/noodra.jpg',
     date: 'Jul 2022 – Mar 2023',
@@ -92,7 +92,7 @@ export const EXPERIENCES: Experience[] = [
     tags: ['Angular 13', 'Ionic 6', 'Capacitor', 'CSRF', 'DI Pattern'],
   },
   {
-    id: 5,
+    id: 2,
     company: 'Babel',
     logo: 'assets/companies/babel.jpg',
     date: 'Mar – Jun 2022',
@@ -105,7 +105,7 @@ export const EXPERIENCES: Experience[] = [
     tags: ['Angular', 'Swagger', 'Sonar', 'DevOps', 'DI Pattern'],
   },
   {
-    id: 6,
+    id: 1,
     company: 'everis / NTT DATA',
     logo: 'assets/companies/everis.jpg',
     date: 'Mar 2016 – Jan 2022',

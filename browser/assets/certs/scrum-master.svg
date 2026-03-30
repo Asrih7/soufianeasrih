@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs><radialGradient id="g1" cx="50%" cy="40%"><stop offset="0%" style="stop-color:#E8622A"/><stop offset="100%" style="stop-color:#8B2200"/></radialGradient></defs>
+  <polygon points="100,8 122,36 156,26 153,61 184,78 166,108 184,138 153,155 156,190 122,180 100,207 78,180 44,190 47,155 16,138 34,108 16,78 47,61 44,26 78,36" fill="url(#g1)" transform="scale(0.87) translate(8,0)"/>
+  <circle cx="100" cy="100" r="58" fill="white"/>
+  <text x="100" y="88" font-family="Georgia,serif" font-size="11" font-weight="700" fill="#C94B0C" text-anchor="middle" letter-spacing="2">SCRUM</text>
+  <text x="100" y="106" font-family="Georgia,serif" font-size="11" font-weight="700" fill="#C94B0C" text-anchor="middle" letter-spacing="2">MASTER</text>
+  <text x="100" y="124" font-family="monospace" font-size="8" fill="#999" text-anchor="middle" letter-spacing="1">CERTIFIED</text>
+  </svg>

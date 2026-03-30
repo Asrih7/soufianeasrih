@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs><linearGradient id="d1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0a0f1a"/><stop offset="100%" style="stop-color:#151e30"/></linearGradient></defs>
+  <rect width="800" height="400" fill="url(#d1)"/>
+  <rect x="380" y="30" width="400" height="340" rx="12" fill="#1a2332" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="380" y="30" width="400" height="44" rx="12 12 0 0" fill="#232f40"/>
+  <circle cx="572" cy="52" r="8" fill="#C94B0C" opacity="0.7"/>
+  <text x="572" y="57" font-family="sans-serif" font-size="10" fill="white" text-anchor="middle">🤖</text>
+  <text x="600" y="57" font-family="sans-serif" font-size="11" fill="rgba(255,255,255,0.6)">ng-chatbot-angular</text>
+  <rect x="396" y="92" width="200" height="38" rx="18" fill="#2a3a50"/>
+  <text x="496" y="115" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">Hello! How can I help?</text>
+  <rect x="500" y="148" width="264" height="38" rx="18" fill="#C94B0C"/>
+  <text x="632" y="171" font-family="sans-serif" font-size="12" fill="white" text-anchor="middle">Tell me about Angular!</text>
+  <rect x="396" y="204" width="300" height="52" rx="18" fill="#2a3a50"/>
+  <text x="546" y="226" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">Angular is a powerful platform</text>
+  <text x="546" y="244" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">for building web apps...</text>
+  <text x="40" y="130" font-family="Georgia,serif" font-size="27" font-weight="700" fill="white">Integrating Chatbot</text>
+  <text x="40" y="168" font-family="Georgia,serif" font-size="27" font-weight="700" fill="white">Functionality into</text>
+  <text x="40" y="208" font-family="Georgia,serif" font-size="27" font-weight="700" fill="#C94B0C">Angular Apps</text>
+  <text x="40" y="300" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.4)">2024 · ng-chatbot-angular</text>
+  <circle cx="56" cy="358" r="18" fill="#C94B0C"/>
+  <text x="56" y="364" font-family="Georgia,serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">SA</text>
+  <text x="82" y="361" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.65)">Asrihsoufiane · Medium</text>
+</svg>

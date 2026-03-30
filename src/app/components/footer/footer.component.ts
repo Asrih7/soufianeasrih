@@ -6,7 +6,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <footer>
-      <span>© {{ year }} <b>Soufiane Asrih</b> · SA7Tech</span>
+      <span>© {{ year }} <b>Soufiane Asrih</b> · SA7Tec</span>
       <span class="f-c">Tétouan, Morocco 🇲🇦 </span>
       <span class="f-r">
         <a href="mailto:asrihsoufiane@gmail.com">asrihsoufiane&#64;gmail.com</a>

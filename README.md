@@ -134,4 +134,4 @@ then `git push` → Netlify auto-deploys in ~20 seconds.
 
 ---
 
-*© 2026 Soufiane Asrih · SA7Tech · Tétouan, Morocco*
+*© 2026 Soufiane Asrih · SA7Tec · Tétouan, Morocco*

@@ -51,13 +51,13 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     id: 5,
-    company: 'SA7Tech',
+    company: 'SA7Tec',
     logo: 'assets/companies/sa7tec.jpg',
     date: 'Nov 2023 – Present',
     badge: 'Founder',
     role: 'Founder — Freelance Web & Mobile',
     points: [
-      'Founded SA7Tech — studio for Angular/Ionic freelance projects and 4 published npm packages.',
+      'Founded SA7Tec — studio for Angular/Ionic freelance projects and 4 published npm packages.',
       'Migrated legacy AngularJS / Ionic 1 codebases to Angular 17 / Ionic 7, dramatically improving DX.',
       'Published ng-payment-card-form, ng-chatbot-angular, ts-file-refactor, ng-capture-screenshots.',
       'Built full-stack Inventory Management App (web + Android) with Capacitor and AdMob monetization.',

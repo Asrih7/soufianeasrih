@@ -27,7 +27,7 @@ import { RevealDirective } from '../../directives/reveal.directive';
             in the Angular ecosystem.
           </p>
           <p class="ab-p" [appReveal]="300">
-            In 2023 I founded <span class="hi">SA7Tech</span> — my studio for mobile apps, npm packages,
+            In 2023 I founded <span class="hi">SA7Tec</span> — my studio for mobile apps, npm packages,
             and freelance solutions. I've published <span class="hi">4 npm packages</span> used by the Angular
             community and write on Medium about Angular best practices.
           </p>

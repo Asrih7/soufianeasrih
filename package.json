@@ -8,7 +8,7 @@
     "start": "ng serve --open",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "build:vercel": "npm run build:prod",
+    "build:vercel": "npm run build:prod && (cp -r dist/soufiane-portfolio/browser/* dist/soufiane-portfolio/ || true) && (mv dist/soufiane-portfolio/browser/* dist/soufiane-portfolio/ 2>/dev/null || true)",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

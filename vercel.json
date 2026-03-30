@@ -1,6 +1,6 @@
 {
   "installCommand": "npm install",
-  "buildCommand": "npm run build:prod && ([ -d dist/soufiane-portfolio/browser ] && cp -r dist/soufiane-portfolio/browser/* dist/soufiane-portfolio/ || true)",
+  "buildCommand": "npm run build:prod && node move-build.js",
   "outputDirectory": "dist/soufiane-portfolio",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html", "status": 200 }
